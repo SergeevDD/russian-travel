@@ -3,4 +3,22 @@
   line-height: 20px;
   font-weight: 400;
   margin: 0;
+  padding-top: 16px;
+  text-align: center;
+}
+
+@media (min-width:320px) and (max-width:768px){
+  .main-theme__subtitle {
+    font-size: calc(16px + (30 - 16) * ( (100vw - 320px) / ( 768 - 320) ));
+    line-height: calc(20px + (36 - 20) * ( (100vw - 320px) / ( 768 - 320) ));
+    padding-top: 32px;
+  }
+}
+
+@media (min-width:769px){
+  .main-theme__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 32px;
+  }
 }

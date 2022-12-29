@@ -3,4 +3,26 @@
   line-height: 44px;
   font-weight: 900;
   margin: 0;
+  text-align: center;
+  padding-top: 48px;
+}
+
+@media (min-width:320px) and (max-width:768px){
+  .main-theme__title {
+    font-size: calc(40px + (96 - 40) * ( (100vw - 320px) / ( 768 - 320) ));
+    line-height: calc(44px + (100 - 44) * ( (100vw - 320px) / ( 768 - 320) ));
+  }
+}
+
+@media (min-width:769px){
+  .main-theme__title {
+    font-size: 96px;
+    line-height: 100px;
+  }
+}
+
+@media (min-width:1100px){
+  .main-theme__title {
+    padding-top: 56px;
+  }
 }
