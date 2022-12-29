@@ -1,0 +1,32 @@
+.intro__column {
+  padding-right: 16px;
+  padding-left: 16px;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: auto auto auto;
+  gap: 40px 33px;
+}
+
+@media (min-width:520px) and (max-width:768px){
+  .intro__column {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+
+@media (min-width:800px) and (max-width:1100px) {
+  .intro__column {
+    padding: 0;
+    width: 90%;
+    grid-template-columns: 71%;
+ }
+}
+
+@media (min-width:1100px) {
+  .intro__column {
+    padding: 0;
+    width: 77%;
+    grid-template-columns: 67%;
+ }
+}

@@ -17,6 +17,7 @@
 /*intro*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__statistic-list/intro__statistic-list.css);
+@import url(../blocks/intro/__column/intro__column.css);
 
 @import url(../blocks/card-title/card-title.css);
 @import url(../blocks/card-paragraph/card-paragraph.css);
