@@ -1,0 +1,16 @@
+.places__item {
+  display: grid;
+  gap: 48px 32px;
+}
+
+@media (min-width:520px){
+  .places__item {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:1100px) {
+  .places__item {
+    width: 80%;
+  }
+}

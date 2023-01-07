@@ -3,5 +3,17 @@
   color: white;
   display: flex;
   justify-content: center;
+  padding-top: 64px;
 }
 
+@media (min-width:320px) and (max-width:768px){
+  .intro {
+    padding-top: calc(64px + (88 - 64) * ( (100vw - 320px) / ( 768 - 320) ));
+  }
+}
+
+@media (min-width:769px){
+  .intro {
+    padding-top: 92px;
+  }
+}

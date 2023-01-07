@@ -3,4 +3,16 @@
   line-height: 16px;
   font-weight: 400;
   margin: 0;
+  text-align: center;
+  padding-top: 16px;
+  z-index: 1;
+}
+
+@media (min-width: 520px) {
+  .baikal-on-dog__subtitle {
+    padding-top: 32px;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+  }
 }

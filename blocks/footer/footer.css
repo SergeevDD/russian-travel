@@ -1,4 +1,32 @@
 .footer {
   font-family: 'Inter', 'Arial',  sans-serif;
   color: white;
+  display: grid;
+  row-gap: 48px;
+  padding-top: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+
+@media (min-width:520px) and (max-width:768px){
+  .footer {
+    padding-top: calc(64px + (88 - 64) * ( (100vw - 320px) / ( 768 - 320) ));
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width:750px){
+  .footer {
+    grid-auto-flow: column;
+  }
+}
+
+@media (min-width:769px){
+  .footer {
+    padding-top: 92px;
+    padding-right: 48px;
+    padding-left: 48px;
+  }
 }

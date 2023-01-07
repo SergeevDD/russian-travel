@@ -1,0 +1,6 @@
+.places__link-position {
+  display: grid;
+  align-items: end;
+  align-content: end;
+  row-gap: 20px;
+}

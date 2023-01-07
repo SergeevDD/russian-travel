@@ -20,6 +20,7 @@
 @import url(../blocks/intro/__column/intro__column.css);
 
 @import url(../blocks/card-title/card-title.css);
+@import url(../blocks/card-title/_text-pos/card-titte_text-pos_center.css);
 @import url(../blocks/card-paragraph/card-paragraph.css);
 /*photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -30,6 +31,8 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__link-position/places__link-position.css);
+@import url(../blocks/places/__text/places__text.css);
 /*baikal-on-dog*/
 @import url(../blocks/baikal-on-dog/baikal-on-dog.css);
 @import url(../blocks/baikal-on-dog/__subtitle/baikal-on-dog__subtitle.css);
