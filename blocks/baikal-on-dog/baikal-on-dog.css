@@ -10,28 +10,6 @@
   background-repeat: no-repeat;
   display: grid;
   grid-auto-rows: auto;
-  justify-items: center;
-  align-content: center;
-  padding-left: 16px;
-  padding-right: 16px;
-  box-sizing: border-box;
-  position: relative;
-}
-
-@media (min-width:520px) and (max-width:768px){
-  .baikal-on-dog {
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-left: 24px;
-  }
-}
-
-@media (min-width:800px){
-  .baikal-on-dog {
-  padding-top: 48px;
-  padding-right: 48px;
-  padding-left: 48px;
-  }
 }
 
 @media (min-width: 1184px){

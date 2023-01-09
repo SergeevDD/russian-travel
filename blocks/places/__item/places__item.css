@@ -1,6 +1,6 @@
 .places__item {
   display: grid;
-  gap: 48px 32px;
+  gap: 32px;
 }
 
 @media (min-width:520px){
