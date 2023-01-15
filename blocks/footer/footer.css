@@ -2,6 +2,7 @@
   font-family: 'Inter', 'Arial',  sans-serif;
   color: white;
   display: grid;
+  align-items: end;
   row-gap: 48px;
   padding-top: 64px;
   padding-left: 16px;

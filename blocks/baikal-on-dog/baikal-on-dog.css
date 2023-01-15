@@ -3,7 +3,7 @@
   color: white;
   background-image: url(../../images/cover-trains.jpg);
   width: 100%;
-  height: 60vw;
+  min-height: 61vw;
   max-height: 740px;
   background-size: cover;
   background-position: center;

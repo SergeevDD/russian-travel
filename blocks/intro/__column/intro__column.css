@@ -3,6 +3,7 @@
   padding-left: 16px;
   display: grid;
  /*  grid-template-rows: auto auto auto; */
+ /* grid-template-columns: 85%; */
   row-gap: 36px;
 }
 
@@ -10,7 +11,7 @@
   .intro__column {
     padding-right: 24px;
     padding-left: 24px;
-
+    grid-template-columns: 99%;
   }
 }
 
@@ -18,8 +19,8 @@
 @media (min-width:800px) and (max-width:1100px) {
   .intro__column {
     padding: 0;
-    width: 90%;
-    grid-template-columns: 71%;
+    grid-template-columns: 74%;
+    width: 91%;
  }
 }
 
@@ -27,6 +28,5 @@
   .intro__column {
     padding: 0;
     width: 77%;
-    grid-template-columns: 67%;
  }
 }

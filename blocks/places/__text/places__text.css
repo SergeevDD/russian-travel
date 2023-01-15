@@ -3,3 +3,9 @@
   row-gap: 25px;
   align-content: start;
 }
+
+@media (min-width: 900px) {
+  .places__text {
+    row-gap: 26px;
+  }
+}

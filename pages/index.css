@@ -20,8 +20,8 @@
 @import url(../blocks/intro/__statistic-value/intro__statistic-value.css);
 @import url(../blocks/intro/__column/intro__column.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__paragraph/intro__paragraph.css);
 
-@import url(../blocks/card-paragraph/card-paragraph.css);
 /*photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/photo-grid__item/photo-grid__item.css);
@@ -34,6 +34,7 @@
 @import url(../blocks/places/__link-position/places__link-position.css);
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
 /*baikal-on-dog*/
 @import url(../blocks/baikal-on-dog/baikal-on-dog.css);
 @import url(../blocks/baikal-on-dog/__subtitle/baikal-on-dog__subtitle.css);
