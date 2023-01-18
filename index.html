@@ -20,13 +20,16 @@
     </header>
     <main>
       <section class="main-theme">
-        <h1 class="main-theme__title">Путешествия по России</h1>
-        <h2 class="main-theme__subtitle">Настоящая страна не в выпусках новостей, а здесь</h2>
-        <img src="./images/lead-polka.jpg" alt="Девушка спит в поезде.Изображена карта остановок." class="main-theme__picture">
-        <p class="main-theme__picture-subtitle">ВАША ПОЛКА — ВЕРХНЯЯ</p>
+        <h1 class="main-theme__title">Путешествия по&nbsp;России</h1>
+        <p class="main-theme__subtitle">Настоящая страна не в выпусках новостей, а здесь</p>
+        <figure class="main-theme__picture-place">
+          <img src="./images/lead-polka.jpg" alt="Девушка спит в поезде.Изображена карта остановок." class="main-theme__picture">
+          <figcaption class="main-theme__picture-subtitle">
+            Ваша полка — верхняя
+          </figcaption>
+      </figure>
       </section>
-      <article class="intro">
-        <div class="intro__column">
+      <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__paragraph">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране.
@@ -43,52 +46,53 @@
           <li>Природных заповедников <span class="intro__statistic-value">105</span></li>
           <li>Аэропортов <span class="intro__statistic-value">241</span></li>
         </ul>
-      </div>
-      </article>
-      <ul class="photo-grid">
-        <li>
-          <img src="./images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item">
-        </li>
-         <li>
-          <img src="./images/photo-grid-atharva-tulsi.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-           <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
-        </li>
-        <li>
-          <img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__item">
-         </li>
-         <li>
-           <img src="./images/photo-grid-arisa.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-           <img src="./images/photo-grid-baikal.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-          <img src="./images/photo-grid-elbrus.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-          <img src="./images/photo-grid-kondratiev.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-          <img src="./images/photo-grid-kamchatka-1.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-          <img src="./images/photo-grid-kamchatka-2.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-          <img src="./images/photo-grid-baikal-2.jpg" alt="" class="photo-grid__item">
-        </li>
-        <li>
-          <img src="./images/photo-grid-ergaki.jpg" alt="" class="photo-grid__item">
-        </li>
-      </ul>
-      <section>
-        <ul class="places">
+      </section>
+      <section class="photo-grid" aria-label="фоторграфии мест отдыха">
+        <ul class="photo-grid__list">
+          <li>
+            <img src="./images/photo-grid-train.jpg" alt="Поезд" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-arisa.jpg" alt="Колесо на льду" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходный переход" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка,гора" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал сверху" class="photo-grid__item">
+          </li>
+          <li>
+            <img src="./images/photo-grid-ergaki.jpg" alt="Горы в тумане" class="photo-grid__item">
+          </li>
+        </ul>
+      </section>
+      <section class="places">
+        <ul class="places__list">
           <li class="places__item">
             <h2 class="places__title">Куршская коса</h2>
             <div class="places__link-position">
-              <p class="places__link-title">URL</p>
+              <p class="places__link-title">url</p>
               <a href="http://park-kosa.ru" class="places__link" target="_blank">park-kosa.ru</a>
             </div>
             <img src="./images/place-kosa.jpg" alt="Куршская коса" class="places__image">
@@ -108,7 +112,7 @@
           <li class="places__item">
             <h2 class="places__title">Кольский</h2>
             <div class="places__link-position">
-              <p class="places__link-title">URL</p>
+              <p class="places__link-title">url</p>
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link" target="_blank">National Geographic</a>
             </div>
             <img src="./images/place-kolsky.jpg" alt="Кольский полуостров" class="places__image">
@@ -127,7 +131,7 @@
           <li class="places__item">
             <h2 class="places__title">Алтай</h2>
             <div class="places__link-position">
-              <p class="places__link-title">URL</p>
+              <p class="places__link-title">url</p>
               <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="places__link" target="_blank">YouTube</a>
             </div>
             <img src="./images/place-altai.jpg" alt="Алтай" class="places__image">
@@ -145,7 +149,7 @@
           <li class="places__item">
             <h2 class="places__title">Зимний Байкал</h2>
             <div class="places__link-position">
-              <p class="places__link-title">URL</p>
+              <p class="places__link-title">url</p>
               <a href="https://vk.com/baikalmile" class="places__link" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <img src="./images/place-winter-baikal.jpg" alt="Байкал зимой" class="places__image">
@@ -162,7 +166,7 @@
           <li class="places__item">
             <h2 class="places__title">Карелия</h2>
             <div class="places__link-position">
-              <p class="places__link-title">URL</p>
+              <p class="places__link-title">url</p>
               <a href="http://vodlozero.ru" class="places__link" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img src="./images/place-karelia.jpg" alt="Карелия" class="places__image">
@@ -179,7 +183,7 @@
       </section>
       <section class="baikal-on-dog">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="baikal-on-dog__link" target="_blank">
-          <h2 class="baikal-on-dog__title">До Байкала «на собаках»</h2>
+          <h2 class="baikal-on-dog__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
           <p class="baikal-on-dog__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section>

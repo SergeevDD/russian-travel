@@ -2,6 +2,13 @@
   display: grid;
   row-gap: 25px;
   align-content: start;
+  max-width: 284px;
+}
+
+@media (min-width: 500px) {
+  .places__text {
+    max-width: 486px;
+  }
 }
 
 @media (min-width: 900px) {

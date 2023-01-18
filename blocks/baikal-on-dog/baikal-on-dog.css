@@ -3,8 +3,7 @@
   color: white;
   background-image: url(../../images/cover-trains.jpg);
   width: 100%;
-  min-height: 61vw;
-  max-height: 740px;
+  min-height: 57vw;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,9 +11,22 @@
   grid-auto-rows: auto;
 }
 
-@media (min-width: 1184px){
+@media (min-width: 700px) {
+  .baikal-on-dog {
+    min-height: 62vw;
+  }
+}
+
+@media (min-width: 900px) {
+  .baikal-on-dog {
+    min-height: 62.5vw;
+  }
+}
+
+@media (min-width: 1184px) {
   .baikal-on-dog {
   max-width: 1184px;
   margin: 0 auto;
+  min-height: 58vw;
   }
 }

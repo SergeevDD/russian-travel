@@ -2,13 +2,18 @@
   font-family: 'Inter', 'Arial',  sans-serif;
   color: white;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   padding-top: 64px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
-@media (min-width:320px) and (max-width:768px){
+@media (min-width:520px) {
   .intro {
-    padding-top: calc(64px + (88 - 64) * ( (100vw - 320px) / ( 768 - 320) ));
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-left: 24px;
+    max-width: 720px;
   }
 }
 
@@ -16,4 +21,18 @@
   .intro {
     padding-top: 92px;
   }
+}
+
+@media (min-width:900px) {
+  .intro {
+    padding-left: 0;
+    max-width: 928px;
+    margin: 0 auto;
+ }
+}
+
+@media (min-width:1100px) {
+  .intro {
+    max-width: 984px;
+ }
 }
