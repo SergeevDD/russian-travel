@@ -19,3 +19,9 @@
     row-gap: 80px;
   }
 }
+
+@media (min-width:1100px){
+  .places__list {
+    padding-left: 44px;
+  }
+}

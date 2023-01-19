@@ -3,16 +3,19 @@
   row-gap: 25px;
   align-content: start;
   max-width: 284px;
+  padding-left: 16px;
 }
 
 @media (min-width: 500px) {
   .places__text {
     max-width: 486px;
+    padding: 0px;
   }
 }
 
 @media (min-width: 900px) {
   .places__text {
     row-gap: 26px;
+
   }
 }

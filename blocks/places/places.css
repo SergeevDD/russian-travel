@@ -1,14 +1,13 @@
 .places {
   font-family: 'Inter', 'Arial',  sans-serif;
   color: white;
-  padding: 64px 16px 60px 16px;
+  padding-top: 64px;
+  padding-bottom: 60px;
 }
 
 @media (min-width:520px) and (max-width:768px){
   .places {
     padding-top: calc(64px + (88 - 64) * ( (100vw - 320px) / ( 768 - 320) ));
-    padding-right: 24px;
-    padding-left: 24px;
     padding-bottom: 90px;
   }
 }
@@ -16,8 +15,6 @@
 @media (min-width:769px){
   .places {
     padding-top: 92px;
-    padding-right: 48px;
-    padding-left: 48px;
     padding-bottom: 92px;
   }
 }

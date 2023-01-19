@@ -3,6 +3,8 @@
     line-height: 35px;
     font-weight: 900;
     margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   @media (min-width:520px) and (max-width:768px){
@@ -10,6 +12,7 @@
       font-size: 42px;
       line-height: 46px;
       max-width: 328px;
+      padding: 0;
     }
   }
 
@@ -17,6 +20,8 @@
     .places__title {
       font-size: calc(42px + (72 - 42) * ( (100vw - 769px) / ( 1024 - 769) ));
       line-height: calc(46px + (76 - 46) * ( (100vw - 769px) / ( 1024 - 769) ));
+      padding: 0;
+
     }
   }
 
@@ -24,5 +29,6 @@
     .places__title {
       font-size: 72px;
       line-height: 76px;
+      padding: 0;
     }
   }
